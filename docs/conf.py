@@ -32,6 +32,7 @@ intersphinx_mapping = {
     "blinker": ("https://pythonhosted.org/blinker/", None),
 }
 issues_github_path = "pallets/flask"
+notfound_template = '404.html'
 
 # HTML -----------------------------------------------------------------
 
