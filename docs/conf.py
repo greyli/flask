@@ -19,6 +19,7 @@ extensions = [
     "pallets_sphinx_themes",
     "sphinx_issues",
     "sphinx_tabs.tabs",
+    'notfound.extension',
 ]
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),

@@ -43,6 +43,8 @@ snowballstemmer==2.1.0
     # via sphinx
 sphinx-issues==1.2.0
     # via -r requirements/docs.in
+sphinx-notfound-page==0.6
+    # via -r requirements/docs.in
 sphinx-tabs==2.0.1
     # via -r requirements/docs.in
 sphinx==3.5.1
