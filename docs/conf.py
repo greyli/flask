@@ -33,6 +33,7 @@ intersphinx_mapping = {
 }
 issues_github_path = "pallets/flask"
 notfound_template = '404.html'
+notfound_urls_prefix = None
 
 # HTML -----------------------------------------------------------------
 
