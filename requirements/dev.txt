@@ -76,7 +76,7 @@ pygments==2.8.1
     #   sphinx-tabs
 pyparsing==2.4.7
     # via packaging
-pytest==6.2.3
+pytest==6.2.4
     # via -r requirements/tests.in
 python-dotenv==0.17.1
     # via -r requirements/tests.in
