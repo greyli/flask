@@ -8,13 +8,13 @@ cffi==1.15.0
     # via cryptography
 cryptography==35.0.0
     # via -r requirements/typing.in
-mypy==0.910
+mypy==0.930
     # via -r requirements/typing.in
 mypy-extensions==0.4.3
     # via mypy
 pycparser==2.20
     # via cffi
-toml==0.10.2
+tomli==2.0.0
     # via mypy
 types-contextvars==2.4.0
     # via -r requirements/typing.in
