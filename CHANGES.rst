@@ -1,14 +1,23 @@
 .. currentmodule:: flask
 
-
-
-Version 1.1.x
+Version 1.1.4
 -------------
 
-Not yet released.
+Released 2021-05-13
 
--   Officially support passing a :class:`pathlib.Path` for
-    ``static_folder`` which stopped working in 1.1.2. :pr:`3579`
+-   Update ``static_folder`` to use ``_compat.fspath`` instead of
+    ``os.fspath`` to continue supporting Python < 3.6 :issue:`4050`
+
+
+Version 1.1.3
+-------------
+
+Released 2021-05-13
+
+-   Set maximum versions of Werkzeug, Jinja, Click, and ItsDangerous.
+    :issue:`4043`
+-   Re-add support for passing a ``pathlib.Path`` for ``static_folder``.
+    :pr:`3579`
 
 
 Version 1.1.2
